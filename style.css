@@ -1,255 +1,235 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww34000\viewh20820\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+}
 
-\f0\fs24 \cf0 body \{\
-    font-family: 'Poppins', sans-serif;\
-    margin: 0;\
-    padding: 0;\
-    background-color: #f4f4f4;\
-    color: #333;\
-\}\
-\
-.container \{\
-    max-width: 1200px;\
-    margin: 0 auto;\
-    padding: 20px;\
-\}\
-\
-header \{\
-    background-color: #fff;\
-    padding: 20px 0;\
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\
-\}\
-\
-header .container \{\
-    display: flex;\
-    justify-content: space-between;\
-    align-items: center;\
-\}\
-\
-.logo h1 \{\
-    margin: 0;\
-    color: #5cb85c; /* A nice green for pet care */\
-\}\
-\
-.logo p \{\
-    margin-top: 5px;\
-    font-size: 0.9em;\
-    color: #777;\
-\}\
-\
-nav ul \{\
-    list-style: none;\
-    padding: 0;\
-    margin: 0;\
-    display: flex;\
-\}\
-\
-nav ul li \{\
-    margin-left: 20px;\
-\}\
-\
-nav ul li a \{\
-    text-decoration: none;\
-    color: #333;\
-    font-weight: 500;\
-    transition: color 0.3s ease;\
-\}\
-\
-nav ul li a:hover \{\
-    color: #5cb85c;\
-\}\
-\
-.hero \{\
-    background-color: #e6f9e6; /* Light green background */\
-    padding: 80px 0;\
-\}\
-\
-.hero .container \{\
-    display: flex;\
-    align-items: center;\
-    justify-content: space-between;\
-\}\
-\
-.hero-content \{\
-    flex: 1;\
-    padding-right: 40px;\
-\}\
-\
-.hero-content h1 \{\
-    font-size: 2.5em;\
-    color: #333;\
-    margin-bottom: 15px;\
-\}\
-\
-.hero-content p \{\
-    font-size: 1.1em;\
-    line-height: 1.6;\
-    color: #555;\
-    margin-bottom: 20px;\
-\}\
-\
-.hero-image \{\
-    flex: 1;\
-\}\
-\
-.hero-image img \{\
-    max-width: 100%;\
-    height: auto;\
-    border-radius: 8px;\
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\
-\}\
-\
-.button \{\
-    display: inline-block;\
-    background-color: #5cb85c;\
-    color: #fff;\
-    padding: 12px 25px;\
-    text-decoration: none;\
-    border-radius: 5px;\
-    font-weight: 600;\
-    transition: background-color 0.3s ease;\
-\}\
-\
-.button:hover \{\
-    background-color: #4cae4c;\
-\}\
-\
-.section \{\
-    padding: 60px 0;\
-\}\
-\
-.section.bg-light \{\
-    background-color: #f9f9f9;\
-\}\
-\
-.section h2 \{\
-    font-size: 2em;\
-    color: #333;\
-    text-align: center;\
-    margin-bottom: 30px;\
-\}\
-\
-.services-grid \{\
-    display: grid;\
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\
-    gap: 30px;\
-\}\
-\
-.service-item \{\
-    background-color: #fff;\
-    padding: 25px;\
-    border-radius: 8px;\
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\
-\}\
-\
-.service-item h3 \{\
-    margin-top: 0;\
-    color: #5cb85c;\
-    margin-bottom: 10px;\
-\}\
-\
-.service-item p \{\
-    line-height: 1.5;\
-    color: #555;\
-    margin-bottom: 10px;\
-\}\
-\
-.service-item ul \{\
-    list-style: none;\
-    padding: 0;\
-\}\
-\
-.service-item ul li \{\
-    margin-bottom: 5px;\
-    color: #777;\
-\}\
-\
-.gallery-grid \{\
-    display: grid;\
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\
-    gap: 20px;\
-\}\
-\
-.gallery-grid img \{\
-    width: 100%;\
-    height: auto;\
-    border-radius: 8px;\
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\
-    transition: transform 0.3s ease-in-out;\
-\}\
-\
-.gallery-grid img:hover \{\
-    transform: scale(1.05);\
-\}\
-\
-.contact-details \{\
-    margin-bottom: 20px;\
-    text-align: center;\
-\}\
-\
-.contact-details p \{\
-    margin-bottom: 8px;\
-    color: #555;\
-\}\
-\
-.google-form \{\
-    text-align: center;\
-\}\
-\
-.google-form iframe \{\
-    width: 100%;\
-    max-width: 600px; /* Adjust as needed */\
-    height: 400px; /* Adjust as needed */\
-    border: 0;\
-\}\
-\
-footer \{\
-    background-color: #333;\
-    color: #fff;\
-    text-align: center;\
-    padding: 20px 0;\
-    font-size: 0.9em;\
-\}\
-\
-footer .container \{\
-    padding: 20px;\
-\}\
-\
-/* Responsive adjustments */\
-@media (max-width: 768px) \{\
-    header .container \{\
-        flex-direction: column;\
-        align-items: flex-start;\
-    \}\
-\
-    .logo \{\
-        margin-bottom: 15px;\
-    \}\
-\
-    nav ul \{\
-        flex-direction: column;\
-    \}\
-\
-    nav ul li \{\
-        margin: 10px 0;\
-    \}\
-\
-    .hero .container \{\
-        flex-direction: column;\
-        text-align: center;\
-    \}\
-\
-    .hero-content \{\
-        padding-right: 0;\
-        margin-bottom: 30px;\
-    \}\
-\
-    .hero-image \{\
-        order: -1; /* Move image above text on smaller screens */\
-    \}\
-\}}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 25px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #673ab7; /* A sophisticated purple */
+}
+
+.logo p {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #673ab7;
+}
+
+.hero {
+    background-color: #f0f0f5; /* Very light gray */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content {
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-block;
+    background-color: #673ab7;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #512da8;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section.bg-light {
+    background-color: #fff;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item h3 {
+    margin-top: 0;
+    color: #673ab7;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    line-height: 1.5;
+    color: #555;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+.contact-details {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.google-form {
+    text-align: center;
+}
+
+.google-form iframe {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    border: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9em;
+}
+
+footer .container {
+    padding: 25px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+}
